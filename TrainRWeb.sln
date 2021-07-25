@@ -7,8 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4F69F441-50F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainR.API", "src\TrainR.API\TrainR.API.csproj", "{C0748803-DF98-4DEB-97FE-15F25CD3CEF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainR.Core", "src\TrainR.Core\TrainR.Core.csproj", "{A8C40F57-4440-4D5C-A420-BCBFC24E0932}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainR.Infrastructure", "src\TrainR.Infrastructure\TrainR.Infrastructure.csproj", "{79F90DC8-5B17-425A-8C21-38828AA7BA25}"
 EndProject
 Global
