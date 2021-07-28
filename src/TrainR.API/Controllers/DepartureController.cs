@@ -22,7 +22,7 @@ namespace TrainR.API.Controllers
 
         [HttpGet]
         [Route("/departures/{startId}")]
-        public IEnumerable<DepartureEntryDto> GetCities(int startId)
+        public IEnumerable<DepartureEntryDto> GetDepartures(int startId)
         {
             return _context.Departure.Include(b => b.Connection)
                                         .Include(c => c.Connection)

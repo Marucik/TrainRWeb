@@ -23,7 +23,8 @@ namespace TrainR.API.Controllers
         public IEnumerable<ConnectionDto> GetConnections()
         {
             return _context.Connection
-                    .Select(q => new ConnectionDto(q.Start.Name, q.Destination.Name, q.Train.Name, q.StartId))
+            .Include(c => c.ConnectionID)
+                    .Select(q => new ConnectionDto(q.Start.Name, q.Destination.Name, q.Train.Name, (int)q.Id))
                     .ToList();
         }
 
